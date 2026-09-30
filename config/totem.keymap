@@ -15,6 +15,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
+/* Locale key codes extensions: https://github.com/joelspadin/zmk-locale-generator */
+
+#include "keys_pt_abnt2.h"
+#include "keys_us_international.h"
 
 #define BASE 0
 #define NAV  1
