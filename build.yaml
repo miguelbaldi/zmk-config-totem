@@ -2,6 +2,7 @@ include:
   - board: xiao_ble//zmk
     shield: totem_left
     artifact-name: totem_left
+    snippet: studio-rpc-usb-uart
   - board: xiao_ble//zmk
     shield: totem_right
     artifact-name: totem_right
