@@ -203,7 +203,7 @@
 
             bindings = <
         &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK     &kp LPAR             &kp RPAR
-        &trans    &mkp MB2        &mmv MOVE_UP    &mkp LCLK        &trans       &kp MINUS  &kp EQUAL  &kp PT_ACUTE  &kp PT_LEFT_BRACKET  &kp PT_RIGHT_BRACKET
+        &trans    &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &trans       &kp MINUS  &kp EQUAL  &kp PT_ACUTE  &kp PT_LEFT_BRACKET  &kp PT_RIGHT_BRACKET
 &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &kp UNDER  &kp PLUS   &kp C_PREV    &kp PT_LEFT_BRACE    &kp PT_RIGHT_BRACE    &trans
                                   &to 0           &trans           &kp SPACE    &kp ENTER  &to 1      &to 3
             >;
