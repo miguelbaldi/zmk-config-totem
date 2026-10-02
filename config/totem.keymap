@@ -35,6 +35,18 @@
     tapping-term-ms = <170>;
 };
 
+&mmv {
+    trigger-period-ms = <16>;
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <2>;
+};
+
+&msc {
+    delay-ms = <0>;
+    time-to-max-speed-ms = <450>;
+    acceleration-exponent = <2>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
