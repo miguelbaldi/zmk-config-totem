@@ -17,9 +17,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 /* Locale key codes extensions: https://github.com/joelspadin/zmk-locale-generator */
-
+#ifndef KEYMAP_DRAWER
 #include "keys_pt_abnt2.h"
 #include "keys_us_international.h"
+#endif
 
 #define BASE 0
 #define NAV  1
