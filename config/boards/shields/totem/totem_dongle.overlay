@@ -10,7 +10,25 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+        zmk,battery-reporting = &battery_reporting;
     };
+
+    battery_reporting: battery_reporting {
+        compatible = "zmk,battery-reporting";
+
+        dongle {
+            hidden;
+        };
+        left {
+            display-name = "Left";
+            cpf = <0x010D>;
+        };
+        right {
+            display-name = "Right";
+            cpf = <0x010E>;
+        };
+    };
+
     mock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;

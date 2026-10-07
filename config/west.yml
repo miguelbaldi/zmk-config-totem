@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zampierilucas
+      url-base: https://github.com/zampierilucas
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: zampierilucas
+      revision: feat/individual-hid-battery-reporting-v2
       import: app/west.yml
   self:
     path: config
