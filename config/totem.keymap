@@ -17,9 +17,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 /* Locale key codes extensions: https://github.com/joelspadin/zmk-locale-generator */
+
 #ifndef KEYMAP_DRAWER
+
 #include "keys_pt_abnt2.h"
 #include "keys_us_international.h"
+
 #endif
 
 #define BASE 0
@@ -70,23 +73,6 @@
         };
     };
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
-        };
-    };
-
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
@@ -106,7 +92,6 @@
             require-prior-idle-ms = <125>;
             flavor = "balanced";
             hold-trigger-key-positions = <35 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31 36 37>;
-            hold-trigger-on-release;
         };
 
         HRR: HRR {
@@ -119,7 +104,6 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <125>;
             flavor = "balanced";
-            hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
         };
 
