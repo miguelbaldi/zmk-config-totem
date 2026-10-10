@@ -92,6 +92,7 @@
             require-prior-idle-ms = <125>;
             flavor = "hold-preferred";
             hold-trigger-key-positions = <35 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31 36 37>;
+            hold-trigger-on-release;
         };
 
         HRR: HRR {
