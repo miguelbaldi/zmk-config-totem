@@ -151,10 +151,10 @@ layers:
   - F12
   - $$mdi:progress-download$$
   - {t: BASE, h: toggle}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SYMBOL, h: toggle}
+  - {t: SYMBOL, h: toggle, type: held}
   - {t: FN, h: toggle}
   FN:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
